@@ -1,0 +1,23 @@
+{
+  "name": "try-catch-wrapper",
+  "version": "0.0.1",
+  "module": "index.js",
+  "type": "module",
+  "author": "Bert Huang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kuzhi1900/try-catch-wrapper"
+  },
+  "description": "A tool for wrapping try catch blocks",
+  "main": "index.js",
+  "keywords": [
+    "try-catch-wrapper",
+    "try",
+    "catch",
+    "function"
+  ],
+  "devDependencies": {
+
+  }
+
+}
