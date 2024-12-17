@@ -1,5 +1,5 @@
 {
-  "name": "try-catch-wrapper",
+  "name": "try-catch-function",
   "version": "0.0.1",
   "module": "index.js",
   "type": "module",

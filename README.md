@@ -4,7 +4,7 @@ try-catch-wrapper
 
 ## Usage
 ```js
-import {tryCatch} from 'try-catch-wrapper'
+import {tryCatch} from 'try-catch-function'
 
 const [error, result] = tryCatch(() => {
   return JSON.parse('invalid json');
@@ -18,7 +18,7 @@ if (error) {
 ```
 
 ```js
-import {tryCatchAsync } from 'try-catch-wrapper'
+import {tryCatchAsync} from 'try-catch-function'
 
 const asyncTask = async () => {
     throw new Error('Something went wrong');
