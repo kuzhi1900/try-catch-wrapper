@@ -1,4 +1,4 @@
-const tryCatch = (fn) => {
+export const tryCatch = (fn) => {
     try {
         return [null, fn()]
     } catch (err) {
@@ -6,12 +6,10 @@ const tryCatch = (fn) => {
     }
 }
 
-const tryCatchAsync = async (fn) => {
+export const tryCatchAsync = async (fn) => {
     try {
         return [null, await fn()]
     } catch (err) {
         return [err, null]
     }
 }
-
-export { tryCatch, tryCatchAsync }
